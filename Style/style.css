@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(232, 229, 229);
+}
+.logo{
+    width: 8vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover; 
+}
+.product-box{
+    width: 35vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.products{
+    
+    height: 50px;
+    padding: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    display: flex;
+
+}
+.products a{
+    text-decoration: none;
+    color: black;
+}
+
+.search{
+    width: 35vw;
+    height: 30px;
+   
+    background-color: rgb(246, 234, 234);
+    display: flex;
+    
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.search .search-icon{
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.search .search-bar{
+    border: none;
+    width: 28vw;
+    
+    background-color: rgb(246, 234, 234);
+}
+.search-bar::placeholder{
+    font-size: 10px;
+    
+}
+
+.icons-box{
+    width: 20vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.flatoff-box{
+   margin-top: 10px;
+    display: flex;
+   
+    
+    
+    
+}
+.flatoff-box img{
+    width: 100vw;
+}
+.shah-poster{
+   
+    display: flex;
+    object-fit: contain;
+}
+
+.shah-poster .her img{
+    width: 100%;
+}
+.shah-poster .him img{
+    width: 100%;
+}
+.cards-box{
+    display: flex;
+    object-fit: contain;
+}
+.cards img{
+    width: 100%;
+}
